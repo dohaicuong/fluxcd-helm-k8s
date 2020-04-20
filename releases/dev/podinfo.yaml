@@ -14,9 +14,5 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image:
-      repository: dohaicuong/podinfo
-      tag: dev-vb8yrcrm
+    image: dohaicuong/podinfo:dev-gnhcgzfh
     replicaCount: 1
-    hpa:
-      enabled: false
